@@ -75,7 +75,7 @@ a:hover {
 .social-icons {
     display: flex;
     gap: 15px;
-    /* space between icons */
+
 }
 
 .social-icons a {
@@ -306,7 +306,7 @@ p {
 .grid3 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* 4 images ek row me */
+ 
     gap: 20px;
     margin-top: 30px;
 }
@@ -490,14 +490,14 @@ p {
     flex-direction: column;
     background-color: rgb(46, 45, 45);
     width: 100%;
-    /* full width le */
+
     max-width: 370px;
-    /* desktop pe limit ho */
+
     padding: 20px;
     align-items: flex-start;
     text-align: start;
     margin: 0 auto;
-    /* center align desktop pe */
+
     box-sizing: border-box;
 }
 
@@ -705,12 +705,11 @@ img {
 
     .mygrid {
         grid-template-columns: repeat(2, 1fr);
-        /* 2 columns */
     }
 
     h2 {
         font-size: 40px;
-        /* heading thoda chhota */
+    
     }
 
     p {
@@ -740,23 +739,18 @@ img {
 
     .sections {
         flex-direction: column;
-        /* stack vertically */
         padding: 20px;
-        /* thoda kam padding */
         text-align: center;
-        /* text center align */
     }
 
     .data {
         margin: 20px 0;
-        /* margin adjust */
         align-items: center;
-        /* center text */
+ 
     }
 
     .data h2 {
         font-size: 32px;
-        /* heading chhoti */
     }
 
     .data p {
@@ -765,12 +759,10 @@ img {
 
     .sec-img {
         order: 2;
-        /* image neeche */
     }
 
     .data {
         order: 1;
-        /* text upar */
     }
 
     .section4 {
@@ -787,7 +779,6 @@ img {
     .bg {
 
         justify-content: center;
-        /* text center kar diya */
         text-align: center;
         padding: 20px;
     }
@@ -838,12 +829,11 @@ img {
 
     .mygrid {
         grid-template-columns: 1fr;
-        /* 1 column */
     }
 
     h2 {
         font-size: 28px;
-        /* aur chhota */
+
     }
 
     p {
@@ -948,4 +938,5 @@ img {
     .price button {
         width: 100%;
     }
+
 }
