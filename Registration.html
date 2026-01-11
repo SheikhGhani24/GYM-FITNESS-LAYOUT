@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITB Registration</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="Reg.css">
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <p>
+            Email: <strong>fitb@email.com</strong>
+        </p>
+        <p>Phone: <strong> +1 (234) 567 89 00</strong></p>
+    </div>
+    <nav>
+        <img src="images/Logo.svg" alt="Logo">
+        <ul>
+              <li><a href="index.html">Home</a></li>
+            <li>
+
+                <a href="Aboutus.html">About Us</a>
+            </li>
+          
+            <li><a href="Registration.html">Registration</a></li>
+            <li><a href="Classes.html">Classes</a></li>
+            <li><a href="Personal.html">Personal Training</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </nav>
+    <header>
+  <h1>Welcome to FITB Gym</h1>
+  <p>Please write complete information to get register at FITB</p>
+  </header>
+  <form action="">
+    <fieldset>
+        <legend><strong>Personal Details</strong></legend>
+        <label for="">Full name: </label><input type="text" name="Fname">
+        <br><br>
+        
+        <label for="">Age: </label><input type="number" name="Age"><br><br>
+        <label for="">Weight(KG): </label><input type="number" name="W"><br><br>
+         <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="Male"> Male
+  <input type="radio" id="female" name="gender" value="Female"> Female
+  <br><br>
+
+  
+ 
+   <label for="goal">Fitness Goal:</label>
+  <select id="goal" name="goal">
+    <option value="weight_loss">Weight Loss</option>
+    <option value="muscle_gain">Muscle Gain</option>
+    <option value="cardio">Cardio</option>
+    <option value="general">General Fitness</option>
+  </select>
+    </fieldset>
+<br><br>
+    <Fieldset>
+
+        <legend><strong>Contact</strong></legend>
+        <label for="">Email:</label>
+        <input type="email" name="email" required><br><br>
+        <label for="">Phone:</label>
+        <input type="tel" name="phone" placeholder="+92-xxx-xxxxxxx" required>
+        <br><br>
+        <label for="">Address</label><br>
+        <textarea name="address" id="address" cols="30" rows="3"></textarea>
+    </Fieldset>
+    <br><br>
+    <fieldset>
+        <legend><strong>Sign Up</strong></legend>
+        <label for="">Username:</label>
+<input type="text" name="username">
+<br><br>
+<label for="">Password:</label>
+<input type="password" required minlength="5" maxlength="8"><br><br>
+<label for="">Confirm password:</label>
+<input type="password" required minlength="5" maxlength="8"><br><br>
+  <label for="">Membership Type: </label>
+ <select id="Type" name="Type">
+    <option value="Basix">Basic</option>
+    <option value="Premium">Premium</option>
+    <option value="Umliited">Unlimited</option>
+   
+  </select><br><br>
+
+    </fieldset>
+    <div>
+        <br>
+    <input type="submit">
+    <br><br>
+<input type="reset">
+</div>
+  </form>
+  <hr>
+   <div class="footer">
+        <p> &copy; Created by Muhammad Ghani</p>
+        <p>All Rights reserved</p>
+    </div>
+</body>
+</html>
